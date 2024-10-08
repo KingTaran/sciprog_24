@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ICHEC C Programming Practicals
 
 ## Overview
@@ -69,4 +68,4 @@ In this practical, we explore floating-point arithmetic using C programming. We 
 
 ## License
 This project is licensed under the MIT License.
->>>>>>> practical2
+
