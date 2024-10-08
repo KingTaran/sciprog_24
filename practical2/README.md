@@ -1,4 +1,4 @@
-# ICHEC Practical 2: Floating Point Arithmetic and Summation
+# Practical 2: Floating Point Arithmetic and Summation
 
 ## Overview
 In this practical, we explore floating-point arithmetic using C programming. We analyze how numbers are represented in binary format and examine the implications of floating-point versus integer arithmetic in numerical computations. The source code for this practical has been sourced from BrightSpace/Canvas.
