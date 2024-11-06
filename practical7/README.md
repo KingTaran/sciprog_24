@@ -1,4 +1,4 @@
-# Week 7 Practical
+# Practical 7
 
 This repository contains two C programs for Week 7 practical exercises: `find_exponential.c` and `pointer_logic.c`. These programs demonstrate essential concepts in C, including dynamic memory allocation, pointers, and recursion.
 
