@@ -15,17 +15,6 @@ The repository will include the following folders:
 - **Week 8**: Dynamic memory allocation and linked lists.
 - **Week 9**: Advanced topics (to be determined).
 
-## Upcoming Practicals
-- **Week 1 Practical**: Introduction to C programming.
-- **Week 2 Practical**: Data types and operators.
-- **Week 3 Practical**: Implementing control structures in C.
-- **Week 4 Practical**: Creating and using functions.
-- **Week 5 Practical**: Working with arrays and strings.
-- **Week 6 Practical**: Pointers and their applications.
-- **Week 7 Practical**: Using structures and handling files.
-- **Week 8 Practical**: Memory management techniques.
-- **Week 9 Practical**: Exploring advanced C programming concepts.
-
 ## Getting Started
 To clone this repository and start working on the practicals, use the following command:
 
