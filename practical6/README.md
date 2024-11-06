@@ -1,4 +1,4 @@
-# Week 6 Practical
+# Practical 6
 
 This repository contains the C program for Week 6 practical exercises, focusing on matrix multiplication using two-dimensional arrays in C.
 
