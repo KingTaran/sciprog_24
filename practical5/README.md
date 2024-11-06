@@ -1,4 +1,4 @@
-# Fibonacci Series and Inverse Hyperbolic Tangent Comparison
+# Practical 5
 
 This folder contains two C programs:
 
