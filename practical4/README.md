@@ -1,4 +1,4 @@
-# Practical 3: Trap Calculation
+# Practical 4
 
 ## Overview
 This practical demonstrates how to calculate the area under a curve using the trapezoidal rule.
