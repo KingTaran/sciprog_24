@@ -1,4 +1,4 @@
-# Practical 8 - GCD Calculation Program
+# Practical 8 
 
 This C program calculates the **Greatest Common Divisor (GCD)** of two integers using both **iterative** and **recursive** methods based on the **Euclidean algorithm**.
 
