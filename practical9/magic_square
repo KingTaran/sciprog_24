@@ -1,0 +1,48 @@
+#include <stdio.h>
+
+// Function to check if a matrix is a magic square.
+// A magic square is an n x n matrix where the sum of each row, column, 
+// main diagonal, and secondary diagonal equals n(n^2 + 1)/2.
+// The function returns 0 if 'n' is non-positive or if the matrix is not a magic square.
+// Otherwise, it returns 1.
+
+int isMagicSquare(int **matrix, const int size) {
+    // Return 0 if the matrix size is invalid
+    if (size <= 0) {
+        return 0;
+    }
+
+    // Calculate the magic constant
+    int magicConstant = size * (size * size + 1) / 2;
+
+    int rowSum, colSum;
+    int mainDiagonalSum = 0, secondaryDiagonalSum = 0;
+
+    // Validate row sums, column sums, and diagonal sums
+    for (int i = 0; i < size; i++) {
+        rowSum = 0;
+        colSum = 0;
+
+        for (int j = 0; j < size; j++) {
+            rowSum += matrix[i][j];       // Sum of the current row
+            colSum += matrix[j][i];       // Sum of the current column
+        }
+
+        // Check if the row or column sum does not match the magic constant
+        if (rowSum != magicConstant || colSum != magicConstant) {
+            return 0;
+        }
+
+        // Accumulate diagonal sums
+        mainDiagonalSum += matrix[i][i];
+        secondaryDiagonalSum += matrix[i][size - i - 1];
+    }
+
+    // Check if diagonal sums match the magic constant
+    if (mainDiagonalSum != magicConstant || secondaryDiagonalSum != magicConstant) {
+        return 0;
+    }
+
+    // If all checks pass, it is a magic square
+    return 1;
+}
