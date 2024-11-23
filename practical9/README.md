@@ -1,4 +1,4 @@
-# Week 9 Practical
+# Practical 9
 
 This repository contains the code and resources for the Week 9 practical exercise, which involves working with matrices in C to determine if they form a magic square. The program demonstrates concepts such as file handling, dynamic memory allocation, and matrix operations.
 
